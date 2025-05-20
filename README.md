@@ -180,6 +180,9 @@ embeddings, tokenizer_state = pipeline.embed(context)
 ### Pretraining, fine-tuning and evaluation
 
 Scripts for pretraining, fine-tuning and evaluating Chronos models can be found in [this folder](./scripts/).
+If you would like to reproduce the training of `chronos-t5-tiny` on Apple Silicon,
+please refer to the step-by-step guide in
+[docs/APPLE_SILICON_TRAINING.md](docs/APPLE_SILICON_TRAINING.md).
 
 ## :floppy_disk: Datasets
 
